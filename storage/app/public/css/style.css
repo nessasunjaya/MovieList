@@ -1,0 +1,148 @@
+body{
+    background-color: rgb(26, 23, 23);
+    color: rgb(217, 223, 228);
+}
+
+.navbar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+.dropdown .dropdown-content .dropdown-item{
+    position: relative;
+    z-index: 11;
+}
+
+span{
+    text-decoration: none;
+    font-weight: 900;
+    color: rgb(220, 63, 63);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(217, 223, 228);
+}
+
+a:hover{
+    color: rgb(220, 63, 63);
+}
+
+.btn{
+    background-color: rgb(220, 63, 63);
+    border: 0;
+}
+
+.btn:active, .btn:hover, .btn:focus{
+    background-color: brown;
+    outline: none;
+    box-shadow: none;
+}
+
+.title{
+    font-size: 35px;
+    font-weight: 900;
+}
+
+
+footer .pages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .pages div{
+    margin: 20px;
+}
+
+footer .pages div:hover{
+    cursor: pointer;
+    color: rgb(220, 63, 63);
+}
+
+.container-fluid{
+    width: 90%;
+}
+
+.form-control{
+    background-color: rgb(72, 72, 72);
+    color: rgb(212, 212, 212);
+}
+
+.dropdown-menu{
+    border: 0;
+}
+
+.dropdown-item:hover{
+    background-color: rgb(220, 63, 63);
+}
+
+.content{
+    width: 85%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.items{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 20%;
+}
+
+.item-cover{
+    width: 10vw;
+    height: 15vw;
+    background-position: center;
+    background-size: contain;
+    border-radius: 5px;
+}
+
+.actor-cover{
+    width: 15vw;
+    height: 20vw;
+    background-position: center;
+    background-size: contain;
+    border-radius: 5px;
+}
+
+#movieCarousel, .carousel-inner, .carousel-item, .carousel-item.active {
+    height: 80vh;
+}
+
+.background{
+    width: auto;
+    height: 100vh;
+    background: center;
+    background-color: gray;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+}
+
+.card div .item-cover:hover{
+    background-color: gray;
+    background-blend-mode: multiply;
+    transition: 0.3s;
+}
+
+.card-title{
+    display: block;
+    width: 10vw;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
